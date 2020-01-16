@@ -1,4 +1,6 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Hi! I'm Hadi! I've been in a data science for many years in different companies! I know, data scientist is vague but I've been doing project in all the ranges of DS including EDA, training ML models, doing unsupervised ML, small/big data, big corporations/startups!
+
+I'm planning to write some of the sutff I find useful and I think will help others.
 
