@@ -1,4 +1,4 @@
-# Detecting Clickbaits (2) - BERT Embedding
+# Detecting Clickbaits (1) - BERT Embedding
 
 
 This will come soon!
