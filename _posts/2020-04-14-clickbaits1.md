@@ -1,6 +1,6 @@
 # Detecting Clickbaits (1) - Universal-Sentence-Encoder Transfer Learning
 
-![by FreePhotos.cc](./images/p1-header.jpg)
+![by FreePhotos.cc](./images/p1-header.jpg "by FreePhotos.cc")
 
 **Problem**:
 Given a set of headlines and labels, whether that headline is a clickbait or 
