@@ -64,15 +64,15 @@ print(test_metrics)
 
 ![image info](./images/TL-kpis.png)
 
+**Important Points**:
 - The training time: 45 min on Google Colab (TPUs)
 - Macro precision on test set: 0.9842
 - Inference time per record:
 
 
-**Code**: https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_transfer_learning.ipynb
-It's recommended to run this notebook in Google Colab.
-
 **Note** 
+- The complete code for this post can be found at https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_transfer_learning.ipynb
+It's recommended to run this notebook in Google Colab.
 - that this one solution, please refer to the next posts for other 
 possible solutions!
 - The dataset was originally taken from Kaggle https://www.kaggle.com/amananandrai/clickbait-dataset 
