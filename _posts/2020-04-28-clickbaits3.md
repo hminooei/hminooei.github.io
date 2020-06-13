@@ -1,1 +1,1 @@
-# Detecting Clickbaits (3) - Conventional or Deep AI
+# Detecting Clickbaits (3) - Manual Boosting
