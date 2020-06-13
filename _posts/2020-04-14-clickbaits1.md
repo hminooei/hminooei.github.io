@@ -1,6 +1,6 @@
 # Detecting Clickbaits (1) - Universal-Sentence-Encoder Transfer Learning
 
-![image info](./images/p1.jpeg  )
+![image info](./images/p1-header.jpeg  )
 
 **Problem**:
 Given a set of headlines and labels, whether that headline is a clickbait or 
