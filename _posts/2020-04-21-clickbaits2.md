@@ -1,7 +1,7 @@
 # Detecting Clickbaits (2) - Logistic Regression
 
 
-
+![by MMT Stock](./images/p2-header.jpg)
 
 
 
