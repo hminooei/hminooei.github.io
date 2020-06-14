@@ -1,13 +1,14 @@
 # Detecting Clickbaits (1) - Universal-Sentence-Encoder Transfer Learning
 
-![by FreePhotos.cc](./images/p1-header.jpg "by FreePhotos.cc")
+![image info](./images/p1-header.jpg "by FreePhotos.cc")
 
-**Problem**:
+**Problem**.
 Given a set of headlines and labels, whether that headline is a clickbait or 
 not, you're asked to build a model to detect clickbait headlines.
 
-**Solution**:
-Read data
+**Solution**.
+
+Read data:
 
 ```
 df = pd.read_csv("https://raw.github.com/hminooei/DSbyHadi/master/data/clickbait_data.csv.zip")

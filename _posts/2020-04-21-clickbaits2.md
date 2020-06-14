@@ -1,9 +1,13 @@
 # Detecting Clickbaits (2) - Logistic Regression
 
 
-![by MMT Stock](./images/p2-header.jpg)
+![image info](./images/p2-header.jpg, "by MMT Stock")
 
+**Problem**:
+Given a set of headlines and labels, whether that headline is a clickbait or 
+not, you're asked to build a model to detect clickbait headlines.
 
+**Solution**:
 
 
 **Note** 
