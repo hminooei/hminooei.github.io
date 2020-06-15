@@ -35,7 +35,7 @@ text_train, text_val, label_train, label_val = train_test_split(
     random_state=9)
 ```
 
-Read Universal Sentence Encoder pre-trained network and its weights from 
+Load Universal Sentence Encoder pre-trained network and its weights from 
 tensorflow hub, set the weights as trainable (`trainable=True`), 
 and add a final output layer with sigmoid activation since it's a binary 
 classifier:
