@@ -1,7 +1,7 @@
 # Detecting Clickbaits (3) - Manual Boosting
 
 
-![image info](./images/p3-header.jpg "by Annie Spratt")
+![image info](images/p3-header.jpg "by Annie Spratt")
 
 This is the continuation of the previous post [Detecting Clickbaits (2) - Logistic Regression](https://hminooei.github.io/2020/04/21/clickbaits2.html).
 
