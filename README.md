@@ -1,3 +1,4 @@
-# Your blog
+# Hadi's Blog
 
-This is the repository for your blog! Click *_config.yml* above to get started and fill in the details. Then click *index.md* and edit it to start creating your home page.
+Welcome and I hope you enjoy the content. Please feel free to contact me at hminooei@gmail.com.
+it it to start creating your home page.
