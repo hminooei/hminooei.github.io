@@ -66,13 +66,13 @@ print(test_metrics)
 
 ![image info](./images/TL-kpis.png)
 
-**Important Points**:
-- The training time: 45 min on Google Colab (TPUs)
-- Macro precision on test set: 0.9842
-- Inference time per record: ~2ms on my laptop (MacBook Pro: 2.3 GHz 8-Core Intel Core i9, 32 GB 2667 MHz DDR4)
+**Important Points**.
+- The training time: `45min` on Google Colab (TPUs)
+- Macro precision on test set: `0.9842`
+- Inference time per record: `~2ms` on my laptop (MacBook Pro: 2.3 GHz 8-Core Intel Core i9, 32 GB 2667 MHz DDR4)
 
 
-**Note** 
+**Note**.
 - The complete code for this post can be found at https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_transfer_learning.ipynb
 It's recommended to run this notebook in Google Colab.
 - For other solutions for this problem, please refer to the next posts.

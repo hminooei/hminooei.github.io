@@ -1,7 +1,7 @@
 # Detecting Clickbaits (2) - Logistic Regression
 
 
-![image info](./images/p2-header.jpg, "by MMT Stock")
+![image info](./images/p2-header.jpg "by MMT Stock")
 
 **Problem**.
 Given a set of headlines and labels, whether that headline is a clickbait or 
@@ -91,7 +91,8 @@ def print_metrics(pipeline, text_train, label_train, text_val, label_val):
     print(metrics.confusion_matrix(label_val, val_preds))
 ```
 
-Now, we run the function with a few different parameters (we tried 4 sets) to reach:
+Now, we run the function with a few different parameters (we tried 4 sets) to reach the 
+trained model below:
 ```
 cfr_pipeline = train_measure_model(text_train, label_train, text_val, label_val,
                                    cv_binary=True, cv_analyzer="word", cv_ngram=("w", 1, 3), 
@@ -105,17 +106,17 @@ measure_model_on_test(cfr_pipeline, text_test, label_test)
 ```
 ![image info](./images/test2.PNG)
 
-Please see the [next post](https://github.com/hminooei/hminooei.github.io/blob/post1/_posts/2020-05-10-clickbaits3.md) for
+Please see the [next post](https://hminooei.github.io/2020/05/10/clickbaits3.html) for
 further improvement of this model.
 
 
-**Important Points**:
-- The training time: 1.3 per cycle (on my laptop), and since I did 4 cycles to search for parameters 
+**Important Points**.
+- The training time: `1.3s` per cycle (on my laptop), and since I did 4 cycles to search for parameters 
 it took 1 minutes overall.
-- Macro precision on test set: 0.9650
-- Inference time per record: ~1ms on my laptop (MacBook Pro: 2.3 GHz 8-Core Intel Core i9, 32 GB 2667 MHz DDR4)
+- Macro precision on test set: `0.9650`
+- Inference time per record: `~1ms` on my laptop (MacBook Pro: 2.3 GHz 8-Core Intel Core i9, 32 GB 2667 MHz DDR4)
 
-**Note** 
+**Note**. 
 - The complete code for this post can be found at https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_conventional.ipynb
 - that this one solution, please refer to the next posts for other 
 possible solutions!
