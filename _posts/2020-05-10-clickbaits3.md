@@ -30,6 +30,7 @@ def get_incorrect_predictions(trained_model, all_data, text_df, label_series):
     incorrectly_predicted.shape
     res = incorrectly_predicted.merge(all_data, on=col_name, suffixes=("_left", "_right"))
     return res
+    
 to_be_added = get_incorrect_predictions(cfr_pipeline, df, text_train.to_frame(name="headline"), label_train)
 ```
 There are 432 such samples. Let's prepare and add them to the training set. In other words
@@ -50,6 +51,38 @@ cfr_pipeline_1x = train_measure_model(boosted_text_train, boosted_label_train,
 
 measure_model_on_test(cfr_pipeline_1x, text_test, label_test)
 ```
+Remember, the `train_measure_model` was defined as:
+```
+def train_measure_model(text_train, label_train, text_val, label_val,
+                        cv_binary, cv_analyzer, cv_ngram, cv_max_features,
+                        cv_have_tfidf, cv_use_idf, cfr_penalty, cfr_C, stop_words=None, 
+                        text_column_name="headline"):
+    cv = CountVectorizer(binary=cv_binary, stop_words=stop_words,
+                               analyzer=cv_analyzer,
+                               ngram_range=cv_ngram[1:3],
+                               max_features=cv_max_features)
+    if cv_have_tfidf:
+        pipeline = Pipeline(steps=[("vectorizer", cv), 
+                                   ("tfidf", TfidfTransformer(use_idf=cv_use_idf)),
+                                   ("classifier", LogisticRegression(penalty=cfr_penalty,
+                                                                     C=cfr_C,
+                                                                     random_state=9,
+                                                                     max_iter=100,
+                                                                     n_jobs=None))])
+    else:
+        pipeline = Pipeline(steps=[("vectorizer", cv), 
+                                   ("classifier", LogisticRegression(penalty=cfr_penalty,
+                                                                     C=cfr_C,
+                                                                     random_state=9,
+                                                                     max_iter=100,
+                                                                     n_jobs=None))])
+
+    pipeline.fit(text_train, label_train)
+    
+    print_metrics(pipeline, text_train, label_train, text_val, label_val)
+
+    return pipeline
+```
 
 Now the macro precision on test set is `0.9661`.
 Let's boost it one more time:
@@ -65,6 +98,7 @@ cfr_pipeline_2x = train_measure_model(boosted_text_train_2x, boosted_label_train
 
 measure_model_on_test(cfr_pipeline_2x, text_test, label_test)
 ```
+
 Now the macro precision on test set is `0.9664`. We stop here since continuing 
 more will not add improve the test metrics and at the same time will 
 start to overfit.
