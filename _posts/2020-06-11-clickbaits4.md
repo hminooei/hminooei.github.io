@@ -1,6 +1,6 @@
 # Detecting Clickbaits (4) - A Practitioner Strategy!
 
-![image info](./images/p4-header.jpg "by Alexandru Acea")
+![image info](images/p4-header.jpg "by Alexandru Acea")
 
 
 **Problem**.
