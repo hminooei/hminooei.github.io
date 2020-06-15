@@ -107,8 +107,9 @@ measure_model_on_test(cfr_pipeline, text_test, label_test)
 
 
 **Important Points**:
-- The training time: 45 min on Google Colab (TPUs)
-- Macro precision on test set: 0.9842
+- The training time: 1.3 per cycle (on my laptop), and since I did 4 cycles to search for parameters 
+it took 1 minutes overall.
+- Macro precision on test set: 0.9650
 - Inference time per record: ~1ms on my laptop (MacBook Pro: 2.3 GHz 8-Core Intel Core i9, 32 GB 2667 MHz DDR4)
 
 **Note** 
