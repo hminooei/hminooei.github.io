@@ -1,6 +1,6 @@
 # Detecting Clickbaits (1) - Universal-Sentence-Encoder Transfer Learning
 
-![image info](images/p1-header.jpg "by FreePhotos.cc")
+![image info](/images/p1-header.jpg "by FreePhotos.cc")
 
 **Problem**.
 Given a set of headlines and labels, whether that headline is a clickbait or 
@@ -15,7 +15,7 @@ df = pd.read_csv("https://raw.github.com/hminooei/DSbyHadi/master/data/clickbait
 df.head(3)
 ```
 
-![image info](images/head.png)
+![image info](/images/head.png)
 
 Split into train/validation/test sets:
 
@@ -64,7 +64,7 @@ test_metrics = metrics.classification_report(label_test, label_preds_classes_tes
 print(test_metrics)
 ```
 
-![image info](images/TL-kpis.png)
+![image info](/images/TL-kpis.png)
 
 **Important Points**.
 - The training time: `45min` on Google Colab (TPUs)
