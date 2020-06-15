@@ -105,6 +105,9 @@ measure_model_on_test(cfr_pipeline, text_test, label_test)
 ```
 ![image info](./images/test2.PNG)
 
+Please see the [next post](https://github.com/hminooei/hminooei.github.io/blob/post1/_posts/2020-05-10-clickbaits3.md) for
+further improvement of this model.
+
 
 **Important Points**:
 - The training time: 1.3 per cycle (on my laptop), and since I did 4 cycles to search for parameters 
