@@ -3,7 +3,7 @@
 
 ![image info](./images/p3-header.jpeg "by Foodiesfeed")
 
-This is the continuation of the [previous post](https://hminooei.github.io/2020/04/21/clickbaits2.html).
+This is the continuation of the previous post [Detecting Clickbaits (2) - Logistic Regression](https://hminooei.github.io/2020/04/21/clickbaits2.html).
 
 **Problem**.
 Given a set of headlines and labels, whether that headline is a clickbait or 

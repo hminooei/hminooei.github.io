@@ -16,11 +16,11 @@ df = pd.read_csv("https://raw.github.com/hminooei/DSbyHadi/master/data/clickbait
 df.tail(2)
 ```
 
-![image info](./images/tail2.PNG)
+![image info](./images/tail2.png)
 
 ```df.head(2)```
 
-![image info](./images/head2.PNG)
+![image info](./images/head2.png)
 
 Split into train/validation/test sets:
 
@@ -104,9 +104,9 @@ which can be tested against test set:
 ```
 measure_model_on_test(cfr_pipeline, text_test, label_test)
 ```
-![image info](./images/test2.PNG)
+![image info](./images/test2.png)
 
-Please see the [next post](https://hminooei.github.io/2020/05/10/clickbaits3.html) for
+Please see the next post [Detecting Clickbaits (3) - Manual Boosting](https://hminooei.github.io/2020/05/10/clickbaits3.html) for
 further improvement of this model.
 
 
