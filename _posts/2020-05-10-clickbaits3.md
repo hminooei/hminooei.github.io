@@ -117,4 +117,4 @@ in terms of labels as bad-labeling/inconsistent-labeling is higher in this set.
 
 
 **Note**.
-- The complete code for this post can be found at https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_conventional.ipynb 
+- The complete code for this post can be on [GitHub](https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_conventional.ipynb). 

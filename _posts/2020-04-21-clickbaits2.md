@@ -18,7 +18,9 @@ df.tail(2)
 
 ![image info](/images/tail2.png)
 
-```df.head(2)```
+```
+df.head(2)
+```
 
 ![image info](/images/head2.png)
 
@@ -117,7 +119,7 @@ it took 1 minutes overall.
 - Inference time per record: `~1ms` on my laptop (MacBook Pro: 2.3 GHz 8-Core Intel Core i9, 32 GB 2667 MHz DDR4)
 
 **Note**. 
-- The complete code for this post can be found at https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_conventional.ipynb
+- The complete code for this post can be found at [GitHub](https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_conventional.ipynb)
 - that this one solution, please refer to the next posts for other 
 possible solutions!
-- The dataset was originally taken from Kaggle https://www.kaggle.com/amananandrai/clickbait-dataset. 
+- The dataset was originally taken from [Kaggle](https://www.kaggle.com/amananandrai/clickbait-dataset). 

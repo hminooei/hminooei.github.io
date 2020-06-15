@@ -73,7 +73,7 @@ print(test_metrics)
 
 
 **Note**.
-- The complete code for this post can be found at https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_transfer_learning.ipynb
+- The complete code for this post can be found on [GitHub](https://github.com/hminooei/DSbyHadi/blob/master/blog/clickbait_transfer_learning.ipynb).
 It's recommended to run this notebook in Google Colab.
 - For other solutions for this problem, please refer to the next posts.
-- The dataset was originally taken from Kaggle https://www.kaggle.com/amananandrai/clickbait-dataset. 
+- The dataset was originally taken from [Kaggle](https://www.kaggle.com/amananandrai/clickbait-dataset). 
