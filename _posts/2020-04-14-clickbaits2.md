@@ -1,10 +1,10 @@
-# Detecting Clickbaits (1) - Universal-Sentence-Encoder Transfer Learning
+# Detecting Clickbaits (2/4) - Universal-Sentence-Encoder Transfer Learning
 
 ![image info](/images/p1-header.jpg "by FreePhotos.cc")
 
 **Problem**.
-Given a set of headlines and labels, whether that headline is a clickbait or 
-not, you're asked to build a model to detect clickbait headlines.
+Given a set of `32000` headlines and their labels, whether that headline is a clickbait (label `1`) or 
+not (label `0`), you're asked to build a model to detect clickbait headlines.
 
 **Solution**.
 

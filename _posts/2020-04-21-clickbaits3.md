@@ -1,11 +1,11 @@
-# Detecting Clickbaits (2) - Logistic Regression
+# Detecting Clickbaits (3/4) - Logistic Regression
 
 
 ![image info](/images/p2-header.jpg "by MMT Stock")
 
 **Problem**.
-Given a set of headlines and labels, whether that headline is a clickbait or 
-not, you're asked to build a model to detect clickbait headlines.
+Given a set of `32000` headlines and their labels, whether that headline is a clickbait (label `1`) or 
+not (label `0`), you're asked to build a model to detect clickbait headlines.
 
 **Solution**.
 
@@ -108,7 +108,7 @@ measure_model_on_test(cfr_pipeline, text_test, label_test)
 ```
 ![image info](/images/test2.png)
 
-Please see the next post [Detecting Clickbaits (3) - Manual Boosting](https://hminooei.github.io/2020/05/10/clickbaits3.html) for
+Please see the next post [Detecting Clickbaits (4/4) - Manual Boosting](https://hminooei.github.io/2020/05/10/clickbaits4.html) for
 further improvement of this model.
 
 
