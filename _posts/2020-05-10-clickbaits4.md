@@ -1,13 +1,13 @@
-# Detecting Clickbaits (3) - Manual Boosting
+# Detecting Clickbaits (4/4) - Manual Boosting
 
 
 ![image info](/images/p3-header.jpg "by Annie Spratt")
 
-This is the continuation of the previous post [Detecting Clickbaits (2) - Logistic Regression](https://hminooei.github.io/2020/04/21/clickbaits2.html).
+This is the continuation of the previous post [Detecting Clickbaits (3/4) - Logistic Regression](https://hminooei.github.io/2020/04/21/clickbaits3.html).
 
 **Problem**.
-Given a set of headlines and labels, whether that headline is a clickbait or 
-not, you're asked to build a model to detect clickbait headlines.
+Given a set of `32000` headlines and their labels, whether that headline is a clickbait (label `1`) or 
+not (label `0`), you're asked to build a model to detect clickbait headlines.
 
 **Solution**.
 
@@ -19,7 +19,7 @@ And finally, we build and train/tune a pipeline model - `cfr_pipeline` -
 that uses `LogisticRegression` classifier. The model's macro precision on 
 test set is `0.9650`.
 
-**Manual Boosting**
+**Manual Boosting**.
 
 First find the mislabeled samples in the training set:
 ```
