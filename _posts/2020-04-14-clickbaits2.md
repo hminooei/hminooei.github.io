@@ -19,7 +19,7 @@ df.head(3)
 
 Split into train/validation/test sets:
 
-```
+{% highlight ruby %}
 text_train_val, text_test, label_train_val, label_test = train_test_split(
     df["headline"], 
     df["clickbait"], 
@@ -33,7 +33,7 @@ text_train, text_val, label_train, label_val = train_test_split(
     label_train_val, 
     test_size=0.2, 
     random_state=9)
-```
+{% endhighlight %}
 
 Load Universal Sentence Encoder pre-trained network and its weights from 
 tensorflow hub, set the weights as trainable (`trainable=True`), 
