@@ -11,22 +11,22 @@ not (label `0`), you're asked to build a model to detect clickbait headlines.
 
 Read data:
 
-```
+{% highlight ruby %}
 df = pd.read_csv("https://raw.github.com/hminooei/DSbyHadi/master/data/clickbait_data.csv.zip")
 df.tail(2)
-```
+{% endhighlight %}
 
 ![image info](/images/tail2.png)
 
-```
+{% highlight ruby %}
 df.head(2)
-```
+{% endhighlight %}
 
 ![image info](/images/head2.png)
 
 Split into train/validation/test sets:
 
-```
+{% highlight ruby %}
 text_train_val, text_test, label_train_val, label_test = train_test_split(
     df["headline"], 
     df["clickbait"], 
@@ -40,14 +40,14 @@ text_train, text_val, label_train, label_val = train_test_split(
     label_train_val, 
     test_size=0.2, 
     random_state=9)
-```
+{% endhighlight %}
 
 Define a function that builds a pipeline line consisting of `CountVectorizer`,
 `TfidfTransformer` (note that you can combine these two and use `TfidfVectorizer`), 
 and `LogisticRegression` stages so that you can pass different parameters to it 
 for tuning:
 
-```
+{% highlight ruby %}
 def train_measure_model(text_train, label_train, text_val, label_val,
                         cv_binary, cv_analyzer, cv_ngram, cv_max_features,
                         cv_have_tfidf, cv_use_idf, cfr_penalty, cfr_C, stop_words=None, 
@@ -77,10 +77,10 @@ def train_measure_model(text_train, label_train, text_val, label_val,
     print_metrics(pipeline, text_train, label_train, text_val, label_val)
 
     return pipeline
-```
+{% endhighlight %}
 
 where the evaluation section is refactored into `print_metrics`:
-```
+{% highlight ruby %}
 def print_metrics(pipeline, text_train, label_train, text_val, label_val):
     train_preds = pipeline.predict(text_train)
     val_preds = pipeline.predict(text_val)
@@ -91,21 +91,21 @@ def print_metrics(pipeline, text_train, label_train, text_val, label_val):
     print("validation:")
     print(metrics.classification_report(label_val, val_preds, labels=[0, 1], digits=4))
     print(metrics.confusion_matrix(label_val, val_preds))
-```
+{% endhighlight %}
 
 Now, we run the function with a few different parameters (we tried 4 sets) to reach the 
 trained model below:
-```
+{% highlight ruby %}
 cfr_pipeline = train_measure_model(text_train, label_train, text_val, label_val,
                                    cv_binary=True, cv_analyzer="word", cv_ngram=("w", 1, 3), 
                                    cv_max_features=5000, cv_have_tfidf=True, cv_use_idf=True, 
                                    cfr_penalty="l2", cfr_C=1.0, stop_words=None)
-```
+{% endhighlight %}
 
 which can be tested against test set:
-```
+{% highlight ruby %}
 measure_model_on_test(cfr_pipeline, text_test, label_test)
-```
+{% endhighlight %}
 ![image info](/images/test2.png)
 
 Please see the next post [Detecting Clickbaits (4/4) - Manual Boosting](https://hminooei.github.io/2020/05/10/clickbaits4.html) for
