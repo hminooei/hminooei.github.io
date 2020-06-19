@@ -52,7 +52,7 @@ cfr_pipeline_1x = train_measure_model(boosted_text_train, boosted_label_train,
 measure_model_on_test(cfr_pipeline_1x, text_test, label_test)
 {% endhighlight %}
 Remember, the `train_measure_model` was defined as:
-{% highlight %}
+{% highlight ruby%}
 def train_measure_model(text_train, label_train, text_val, label_val,
                         cv_binary, cv_analyzer, cv_ngram, cv_max_features,
                         cv_have_tfidf, cv_use_idf, cfr_penalty, cfr_C, stop_words=None, 
