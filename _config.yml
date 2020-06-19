@@ -18,7 +18,7 @@ twitter_username: dsbyhadi
 use_math: True
 
 # Everything below here can be ignored, unless you want to change the theme entirely
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
