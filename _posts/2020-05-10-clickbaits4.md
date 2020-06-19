@@ -22,7 +22,7 @@ test set is `0.9650`.
 **Manual Boosting**.
 
 First find the mislabeled samples in the training set:
-{% highlight %}
+{% highlight ruby %}
 def get_incorrect_predictions(trained_model, all_data, text_df, label_series):
     col_name = text_df.columns.values.tolist()[0]
     preds = trained_model.predict(text_df[col_name])
