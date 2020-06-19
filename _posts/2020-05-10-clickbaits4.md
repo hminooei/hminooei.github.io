@@ -22,7 +22,7 @@ test set is `0.9650`.
 **Manual Boosting**.
 
 First find the mislabeled samples in the training set:
-```
+{% highlight %}
 def get_incorrect_predictions(trained_model, all_data, text_df, label_series):
     col_name = text_df.columns.values.tolist()[0]
     preds = trained_model.predict(text_df[col_name])
@@ -32,10 +32,10 @@ def get_incorrect_predictions(trained_model, all_data, text_df, label_series):
     return res
     
 to_be_added = get_incorrect_predictions(cfr_pipeline, df, text_train.to_frame(name="headline"), label_train)
-```
+{% endhighlight %}
 There are 432 such samples. Let's prepare and add them to the training set. In other words
 let's manually boost our training set:
-```
+{% highlight ruby %}
 extra_text_train = to_be_added["headline"]
 extra_label_train = to_be_added["clickbait"]
 extra_label_train = np.array(extra_label_train)
@@ -50,9 +50,9 @@ cfr_pipeline_1x = train_measure_model(boosted_text_train, boosted_label_train,
                                       cfr_penalty="l2", cfr_C=1.0, stop_words=None)
 
 measure_model_on_test(cfr_pipeline_1x, text_test, label_test)
-```
+{% endhighlight %}
 Remember, the `train_measure_model` was defined as:
-```
+{% highlight %}
 def train_measure_model(text_train, label_train, text_val, label_val,
                         cv_binary, cv_analyzer, cv_ngram, cv_max_features,
                         cv_have_tfidf, cv_use_idf, cfr_penalty, cfr_C, stop_words=None, 
@@ -82,11 +82,11 @@ def train_measure_model(text_train, label_train, text_val, label_val,
     print_metrics(pipeline, text_train, label_train, text_val, label_val)
 
     return pipeline
-```
+{% endhighlight %}
 
 Now the macro precision on test set is `0.9661`.
 Let's boost it one more time:
-```
+{% highlight ruby %}
 boosted_text_train_2x = pd.concat([text_train]+[extra_text_train]*2)
 boosted_label_train_2x = np.concatenate([label_train]+[extra_label_train]*2, axis=0)
 
@@ -97,7 +97,7 @@ cfr_pipeline_2x = train_measure_model(boosted_text_train_2x, boosted_label_train
                                       cfr_penalty="l2", cfr_C=1.0, stop_words=None)
 
 measure_model_on_test(cfr_pipeline_2x, text_test, label_test)
-```
+{% endhighlight %}
 
 Now the macro precision on test set is `0.9664`. We stop here since continuing 
 more will not add improve the test metrics and at the same time will 
