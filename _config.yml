@@ -21,6 +21,7 @@ use_math: True
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 titles_from_headings:
   enabled:     true
