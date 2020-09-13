@@ -23,7 +23,7 @@ use_math: True
 show_excerpts: False
 
 disqus:
-  shortname: hadiminooei
+  shortname: hminooei
 
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima
