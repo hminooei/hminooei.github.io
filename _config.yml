@@ -20,6 +20,8 @@ author:
 # Set this to true to get LaTeX math equation support
 use_math: True
 
+show_excerpts: True
+
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima
 plugins:
