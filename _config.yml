@@ -11,8 +11,11 @@ description: This is my 2 cents for DS/AI/ML community. Feedback is always welco
 github_username: hminooei
 
 # Email and twitter are optional:
-email: hminooei@gmail.com
-twitter_username: dsbyhadi
+# email: hminooei@gmail.com
+# twitter_username: dsbyhadi
+author:
+  name: Hadi Minooei
+  email: hminooei@gmail.com
 
 # Set this to true to get LaTeX math equation support
 use_math: True
@@ -23,6 +26,15 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+minima:
+  social_links:
+    twitter: dsbyhadi
+    github: hminooei
+    stackoverflow: "4245534"
+    linkedin: hadi-minooei-23b50b22
+    youtube: datasciencebyhadi
+    youtube_channel: UCuUos05DqrTKOsyVfew6BPw 
+    youtube_channel_name: Data Science by Hadi
 
 google_analytics: UA-169498675-1
 
