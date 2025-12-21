@@ -2,7 +2,8 @@
 
 ![](/images/apple-touch-icon.png "Hadi Minooei")
 
-Hi! I'm Hadi! I've been in a data science for many years in different companies! I know, data scientist is vague but I've been doing project in all the ranges of DS including EDA, training ML models, doing unsupervised ML, small/big data, big corporations/startups!
+I have been building AI products end-to-end for more than a decade. While the focus was previously on training or fine-tuning language models for specific downstream tasks, the landscape has shifted towards effectively prompting LLMs and building the right tools for AI agents.
 
-I'm planning to write some of the sutff I find useful and I think will help others.
+With AI model commoditization, building AI agents or products has become easier. Soon we will have an abundance of AI agents, similar to how smartphones increased the number of YouTube channels. This is where quality matters to get traction.
 
+My philosophy for quality has been: Start Simple. Iterate until you reach the desired quality.
