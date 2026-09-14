@@ -4,7 +4,7 @@
 
 Having built and evaluated AI agents for SWE/SRE tasks and watched them go rogue and do unsafe actions in sandboxes, I can confirm the risk is real. The scariest part? I don't see a clear simple solution. 
 
-Why we have a short time to act?
+**Why we have a short time to act?**
 
 1- Within a few years, distilled datacenter-scale models (like Astra or Fable) will likely run on local machines/servers.
 
