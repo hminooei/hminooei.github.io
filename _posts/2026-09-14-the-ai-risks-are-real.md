@@ -6,7 +6,7 @@ Having built and evaluated AI agents for SWE/SRE tasks and watched them go rogue
 
 **Why we have a short time to act?**
 
-1- Within a few years, distilled datacenter-scale models (like Astra or Fable) will likely run on local machines/servers.
+1- Within 1-2 years, distilled datacenter-scale models (like Astra or Fable) will likely run on local machines/servers.
 
 2- Furthermore, we're currently only worried about bad actors at inference stage—soon they'll be able to exploit the training stage, too.
 
