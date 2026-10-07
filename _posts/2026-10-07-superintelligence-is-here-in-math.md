@@ -32,11 +32,13 @@ The excitement was immediate:
 - Immunologist Derya Unutmaz [called it](https://x.com/DeryaTR_/status/2107605716748177861) *"Amazing!"* and *"this incredible achievement,"* noting it was done with an internal Pro model averaging about 3 hours per problem.
 - Others simply [posted](https://x.com/rand_longevity/status/2107623438777254319): *"welcome to the singularity."*
 
-Two more reactions that stood out to me:
+A few more reactions that stood out to me:
 
 <blockquote class="twitter-tweet" data-dnt="true"><a href="https://twitter.com/alexkontorovich/status/2107609087902941646">Alex Kontorovich on X</a></blockquote>
 
 <blockquote class="twitter-tweet" data-dnt="true"><a href="https://twitter.com/nechita_ion/status/2107679271108116880">Ion Nechita on X</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true"><a href="https://twitter.com/obhisheksaha/status/2107801342722928899">Obhishek Saha on X</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Thousands of research problems were attempted, hundreds of results came out, and many come with machine-checked proofs. Debating whether models can do research-level math is over.
