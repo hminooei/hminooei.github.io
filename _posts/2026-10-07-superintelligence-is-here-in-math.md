@@ -29,9 +29,15 @@ In plain words, the model ran out of exam questions, so they handed it open rese
 The excitement was immediate:
 
 - Crémieux [wrote](https://x.com/cremieuxrecueil/status/2107600945383112990): *"This 7/8 quasi-Riemann hypothesis proof looks like one of the most important advances in analytical number theory in decades... Plus 3,998 more things! Oh my god."*
-- Rutgers professor Alex Kontorovich was [reported](https://finance.biggo.com/news/1d522643-5fd9-4ac5-ae86-e4a5b99edfe2) as saying that if a human had achieved this, they'd receive a Fields Medal immediately.
 - Immunologist Derya Unutmaz [called it](https://x.com/DeryaTR_/status/2107605716748177861) *"Amazing!"* and *"this incredible achievement,"* noting it was done with an internal Pro model averaging about 3 hours per problem.
 - Others simply [posted](https://x.com/rand_longevity/status/2107623438777254319): *"welcome to the singularity."*
+
+Two more reactions that stood out to me:
+
+<blockquote class="twitter-tweet" data-dnt="true"><a href="https://twitter.com/alexkontorovich/status/2107609087902941646">Alex Kontorovich on X</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true"><a href="https://twitter.com/nechita_ion/status/2107679271108116880">Ion Nechita on X</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Thousands of research problems were attempted, hundreds of results came out, and many come with machine-checked proofs. Debating whether models can do research-level math is over.
 
