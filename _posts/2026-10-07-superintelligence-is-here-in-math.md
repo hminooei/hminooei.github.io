@@ -24,22 +24,16 @@ One line in the README stood out to me more than any single theorem:
 
 In plain words, the model ran out of exam questions, so they handed it open research problems.
 
-## 🗣️ The Reactions: Awe and Alarm
+## 🗣️ The Reactions
 
-The reactions split fast.
+The excitement was immediate:
 
-**The awe:**
 - Crémieux [wrote](https://x.com/cremieuxrecueil/status/2107600945383112990): *"This 7/8 quasi-Riemann hypothesis proof looks like one of the most important advances in analytical number theory in decades... Plus 3,998 more things! Oh my god."*
 - Rutgers professor Alex Kontorovich was [reported](https://finance.biggo.com/news/1d522643-5fd9-4ac5-ae86-e4a5b99edfe2) as saying that if a human had achieved this, they'd receive a Fields Medal immediately.
+- Immunologist Derya Unutmaz [called it](https://x.com/DeryaTR_/status/2107605716748177861) *"Amazing!"* and *"this incredible achievement,"* noting it was done with an internal Pro model averaging about 3 hours per problem.
 - Others simply [posted](https://x.com/rand_longevity/status/2107623438777254319): *"welcome to the singularity."*
 
-**The alarm:**
-- Many working mathematicians were [not impressed by the *way* it was released](https://startupfortune.com/openai-drops-722-ai-math-proofs-and-mathematicians-are-not-impressed/). Dumping 722 papers on GitHub skips the peer-review norms the field relies on, and nobody can referee that much work overnight.
-- This came on top of an [open letter from 25 Fields Medalists](https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/) warning that AI labs racing each other on famous problems are undermining how mathematical research works, and raising attribution and plagiarism concerns.
-- It also follows the [Navier–Stokes credit dispute](https://decrypt.co/377725/openai-solved-1m-math-problem-rival-mathematician/), where NYU's Tristan Buckmaster said OpenAI pressured him over crediting a collaborator. OpenAI denies that account.
-- Terence Tao has [long cautioned](https://teorth.github.io/tao-web/ai-views.html) that AI-generated proofs can look flawless while hiding subtle errors. That's exactly why the Lean formalizations matter so much.
-
-I think both camps are right. The process concerns about credit, peer review, and verification are real and deserve real answers. But they're concerns about *how* the results are being shared, not about *whether* the capability exists. Thousands of research problems were attempted, hundreds of results came out, and many come with machine-checked proofs. Debating whether models can do research-level math is over.
+Thousands of research problems were attempted, hundreds of results came out, and many come with machine-checked proofs. Debating whether models can do research-level math is over.
 
 ## 🧗 "Jagged" Superintelligence
 
