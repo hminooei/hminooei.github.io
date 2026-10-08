@@ -61,7 +61,7 @@ Initially, math and code went first for a simple reason: **their feedback was ex
 
 That's no longer the whole story. Today's strong models don't need execution-based feedback like running tests or compiling a proof to get a useful signal. **Another model can judge the work**: reading a proof or a pull request the way a seasoned reviewer would, spotting gaps, and grading the quality of the reasoning. The coach no longer has to be a stopwatch. It can be an expert.
 
-When feedback is precise and cheap, you can run an enormous number of high-quality practice reps, and quality reps compound. That README line about evaluations "saturating" is what happens when a student gets so good at practice problems that you have to hand them unsolved ones.
+When feedback is reliable and cheap, you can run an enormous number of high-quality practice reps, and quality reps compound. That README line about evaluations "saturating" is what happens when a student gets so good at practice problems that you have to hand them unsolved ones.
 
 This also explains the jaggedness. Skills with fuzzy, slow, or expensive feedback (taste, long-horizon judgment, messy real-world tasks) haven't had as many good practice reps *yet*. As labs build better ways to practice and grade those skills, the rough corners will get sanded down. They're the same corners, filled in by the same practice process.
 
