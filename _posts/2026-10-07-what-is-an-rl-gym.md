@@ -35,7 +35,9 @@ In RL this is the **reward**: a score for each rollout. Did the code pass the te
 
 Then comes the key step. The model is nudged to do **more of what earned a good reward and less of what didn't**. That's the "reinforcement" in Reinforcement Learning. Good reps get reinforced.
 
-This is also why **math and coding are improving fastest**. Their "scale" is extremely precise: a proof either checks or it doesn't, and the tests either pass or they don't. When feedback is clear and cheap, you can do a huge number of high-quality reps.
+This is why **math and coding took off first**. Their "scale" is extremely precise: a proof either checks or it doesn't, and the tests either pass or they don't. When feedback is clear and cheap, you can do a huge number of high-quality reps.
+
+But a scale only measures weight. It can't tell you whether your form was good. That's what a **coach** is for, and today's strong models can be that coach. Instead of running tests or a proof checker, **another model judges the work**: it reads the proof or the code like an experienced reviewer would, spots the gaps, and grades the quality of the reasoning. The feedback no longer has to come from a machine that executes something. It can come from an expert that understands it.
 
 ## 📈 Progressive Overload = Curriculum
 
@@ -53,7 +55,7 @@ Models do this too. It's called **reward hacking**. If the "coach" only checks w
 
 You know the guy with huge arms and skinny legs? He trained what he enjoyed and skipped the rest.
 
-Models end up the same way. They become superhuman at the skills that had great gyms (math, coding) and stay surprisingly clumsy at skills that didn't. People call this **jagged intelligence**. The fix is the same as in real life: build gyms for the neglected muscles and do the reps.
+Models end up the same way. They become superhuman at the skills that had great gyms (math, coding) and stay surprisingly clumsy at skills that didn't. People call this **jagged intelligence**. The fix is the same as in real life: build gyms for the neglected muscles and do the reps. And since a model coach can grade skills that have no scale at all, like writing, judgment, or design, those neglected muscles are finally getting a trainer.
 
 ## 🧑‍🤝‍🧑 The Spotter = Safety
 
