@@ -57,7 +57,7 @@ Models are getting superhuman the same way. Through **reinforcement learning (RL
 
 Initially, math and code went first for a simple reason: **their feedback was exceptionally clean.**
 - In code, the tests pass or they don't.
-- In math, Lean accepts the proof or it doesn't.
+- In math, [Lean](https://lean-lang.org/) (a programming language and proof checker that verifies every logical step of a proof by computer) accepts the proof or it doesn't.
 
 That's no longer the whole story. Today's strong models don't need execution-based feedback like running tests or compiling a proof to get a useful signal. **Another model can judge the work**: reading a proof or a pull request the way a seasoned reviewer would, spotting gaps, and grading the quality of the reasoning. The coach no longer has to be a stopwatch. It can be an expert.
 
