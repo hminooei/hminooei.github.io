@@ -29,8 +29,6 @@ In plain words, the model ran out of exam questions, so they handed it open rese
 The excitement was immediate:
 
 - Crémieux [wrote](https://x.com/cremieuxrecueil/status/2107600945383112990): *"This 7/8 quasi-Riemann hypothesis proof looks like one of the most important advances in analytical number theory in decades... Plus 3,998 more things! Oh my god."*
-- Immunologist Derya Unutmaz [called it](https://x.com/DeryaTR_/status/2107605716748177861) *"Amazing!"* and *"this incredible achievement,"* noting it was done with an internal Pro model averaging about 3 hours per problem.
-- Others simply [posted](https://x.com/rand_longevity/status/2107623438777254319): *"welcome to the singularity."*
 
 A few more reactions that stood out to me:
 
