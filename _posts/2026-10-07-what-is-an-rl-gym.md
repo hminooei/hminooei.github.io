@@ -1,5 +1,7 @@
 # What Is an RL Gym? (Explained With Actual Dumbbells)
 
+![RL Gym](/images/rl-gym.jpg "by Alonso Reyes on Unsplash")
+
 You'll hear AI people say things like *"we built a new RL gym for coding"* or *"the model saturated our math environments."* It sounds like jargon, but the idea is simple. It's a gym, like the one where you lift weights.
 
 RL stands for **Reinforcement Learning**: learning by trying things and getting feedback on how it went. An **RL gym** (also called an *RL environment*) is the place where a model goes to do those reps.
