@@ -57,10 +57,6 @@ You know the guy with huge arms and skinny legs? He trained what he enjoyed and 
 
 Models end up the same way. They become superhuman at the skills that had great gyms (math, coding) and stay surprisingly clumsy at skills that didn't. People call this **jagged intelligence**. The fix is the same as in real life: build gyms for the neglected muscles and do the reps. And since a model coach can grade skills that have no scale at all, like writing, judgment, or design, those neglected muscles are finally getting a trainer.
 
-## 🧑‍🤝‍🧑 The Spotter = Safety
-
-When you bench press heavy, you want a spotter. RL gyms are sandboxed for the same reason. When a model is practicing hard tasks, especially agentic ones with real tools, you want it practicing somewhere it can't hurt anything if a rep goes wrong.
-
 ---
 
 **TL;DR:** An RL gym is a place where a model practices real tasks (dumbbells), many times over (reps), gets scored on each attempt (the mirror and the coach), and gets nudged toward what worked. Make the weights heavier as it improves, don't count cheating reps, and don't skip leg day.
