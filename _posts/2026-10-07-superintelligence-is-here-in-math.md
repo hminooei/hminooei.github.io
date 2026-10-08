@@ -1,12 +1,6 @@
 # Superintelligence Is Here (in Math and Code), and Practice Is How It Got Here
 
-Last night OpenAI dropped [722 math manuscripts](https://github.com/openai/math), organized into 372 families of results, all produced by an unreleased internal model. My reaction on X was short:
-
-> SI (super intelligence) concretely shown (already achieved but some had doubts) in math. The same is true for coding. One caveat: the SI is jagged, which I consider it as rough corner that soon will be smooth.
->
-> — [@sardaaroo](https://x.com/sardaaroo/status/2107716178672050413)
-
-Here's the longer version.
+Last night OpenAI dropped [722 math manuscripts](https://github.com/openai/math), organized into 372 families of results, all produced by an unreleased internal model.
 
 ## 📚 What Was Released
 
@@ -43,7 +37,7 @@ Thousands of research problems were attempted, hundreds of results came out, and
 
 ## 🧗 "Jagged" Superintelligence
 
-The caveat in my tweet matters. This superintelligence is **jagged**. The same model that proves new results about L-functions can still fumble tasks a teenager finds trivial.
+There's one important caveat: this superintelligence is **jagged**. The same model that proves new results about L-functions can still fumble tasks a teenager finds trivial.
 
 I see that jaggedness as **rough corners, not a ceiling**. To see why, look at *how* these models got so good at math and code in the first place.
 
