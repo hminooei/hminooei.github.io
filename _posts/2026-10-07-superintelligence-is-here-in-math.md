@@ -2,7 +2,7 @@
 
 ![Superintelligence](/images/superintelligence.jpg "by Greg Rakozy on Unsplash")
 
-Last night OpenAI dropped [722 math manuscripts](https://github.com/openai/math), organized into 372 families of results, all produced by an unreleased internal model.
+This week, on October 6, 2026, OpenAI dropped [722 math manuscripts](https://github.com/openai/math), organized into 372 families of results, all produced by an unreleased internal model.
 
 ## 📚 What Was Released
 
