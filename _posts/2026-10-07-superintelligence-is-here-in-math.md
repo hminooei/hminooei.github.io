@@ -55,9 +55,11 @@ How does a human get great at anything, whether piano, chess, surgery, or liftin
 
 Models are getting superhuman the same way. Through **reinforcement learning (RL)**, a model attempts a task, gets scored on the result, and is nudged toward whatever worked. It does this millions of times.
 
-Math and code went first for a simple reason: **their feedback is exceptionally clean.**
+Initially, math and code went first for a simple reason: **their feedback was exceptionally clean.**
 - In code, the tests pass or they don't.
 - In math, Lean accepts the proof or it doesn't.
+
+That's no longer the whole story. Today's strong models don't need execution-based feedback like running tests or compiling a proof to get a useful signal. **Another model can judge the work**: reading a proof or a pull request the way a seasoned reviewer would, spotting gaps, and grading the quality of the reasoning. The coach no longer has to be a stopwatch. It can be an expert.
 
 When feedback is precise and cheap, you can run an enormous number of high-quality practice reps, and quality reps compound. That README line about evaluations "saturating" is what happens when a student gets so good at practice problems that you have to hand them unsolved ones.
 
